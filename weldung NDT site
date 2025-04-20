@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welding & NDT Inspection Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            padding: 50px 0;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .service-list .service {
+            background-color: #fff;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service-list .service h3 {
+            color: #333;
+        }
+        .service-list .service p {
+            font-size: 1.1em;
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welding & NDT Inspection Services</h1>
+        <p>Reliable, Professional, and Certified Services for Your Projects</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Welding & NDT Inspection Services</h2>
+            <p>We provide high-quality welding and non-destructive testing (NDT) inspection services to ensure your projects meet the highest standards of safety and integrity. Whether you need welding for construction, repair, or inspection, our certified professionals are here to help.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Welding Services</h3>
+                    <p>We offer expert welding services for a wide range of materials and applications, including structural, pipe welding, and custom fabrication.</p>
+                </div>
+                <div class="service">
+                    <h3>Non-Destructive Testing (NDT)</h3>
+                    <p>Our NDT services include ultrasonic testing, radiographic testing, magnetic particle inspection, and more to ensure the integrity of your structures.</p>
+                </div>
+                <div class="service">
+                    <h3>Inspection & Quality Assurance</h3>
+                    <p>We perform thorough inspections to ensure all welds and structures meet industry standards, providing comprehensive reports for your peace of mind.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need a quote, please feel free to reach out to us. We are available for both emergency services and long-term projects.</p>
+            <p>Email: <a href="mailto:info@welding-ndt.com">info@welding-ndt.com</a></p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Welding & NDT Inspection Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
